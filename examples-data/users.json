@@ -1,0 +1,47 @@
+[
+  {
+    "userName": "Alex Creator",
+    "userAvatar": "/avatar1.jpg",
+    "stats": {
+      "views": 125000,
+      "followers": 5420,
+      "likes": 18500,
+      "videos": 47
+    },
+    "achievements": [
+      "10K Followers",
+      "Viral Video",
+      "Creator of the Month"
+    ]
+  },
+  {
+    "userName": "Sarah Designer",
+    "userAvatar": "/avatar2.jpg",
+    "stats": {
+      "views": 250000,
+      "followers": 12500,
+      "likes": 45000,
+      "videos": 89
+    },
+    "achievements": [
+      "50K Followers",
+      "Top Creator 2024",
+      "Viral Video Champion"
+    ]
+  },
+  {
+    "userName": "Mike Developer",
+    "userAvatar": "/avatar3.jpg",
+    "stats": {
+      "views": 75000,
+      "followers": 3200,
+      "likes": 12000,
+      "videos": 23
+    },
+    "achievements": [
+      "First Viral Video",
+      "5K Followers",
+      "Rising Star"
+    ]
+  }
+]
