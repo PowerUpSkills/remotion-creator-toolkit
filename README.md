@@ -35,7 +35,12 @@ npm start
 # Opens Remotion Studio at http://localhost:3000
 ```
 
-4. **Test render an example**
+4. **Edit properties interactively**
+   - Select any composition in the left panel
+   - Use the **right panel** to edit text, colors, and data in real-time
+   - Watch your changes update instantly in the preview!
+
+5. **Test render an example**
 ```bash
 npm run render:quote
 # Creates output/quote-card.mp4
@@ -169,9 +174,31 @@ npm start
 ```
 This opens **Remotion Studio** where you can:
 - Preview videos in real-time
-- Adjust properties with a visual interface
+- **Edit properties interactively** in the right panel (quotes, colors, data)
 - Scrub through timelines
 - Export videos directly
+- **No code required** for customization!
+
+### Interactive Property Editing ✨
+
+**No coding required!** Each template includes interactive controls:
+
+**QuoteCard**:
+- 📝 Edit quote text and author name
+- 🎨 Switch themes (gradient, dark, minimal) with dropdown
+- 👀 See changes instantly in preview
+
+**ProductAd**:
+- 🏷️ Change product name and call-to-action text
+- 💰 Adjust pricing and discount percentage
+- 🎨 Pick brand colors with color picker
+
+**UserStatsVideo**:
+- 👤 Edit user name and profile
+- 📊 Modify stats (views, followers, likes, videos)
+- 🏆 Add/remove achievements from list
+
+Simply select a composition and use the **right panel** to customize everything!
 
 ### Rendering Videos
 
