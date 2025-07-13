@@ -1,0 +1,35 @@
+{
+  "name": "remotion-creator-toolkit",
+  "version": "1.0.0",
+  "description": "Complete toolkit for creators to build automated social media content, ads, and personalized videos with Remotion",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render",
+    "render:quote": "remotion render QuoteCard output/quote-card.mp4",
+    "render:product-ad": "remotion render ProductAd output/product-ad.mp4",
+    "render:user-stats": "remotion render UserStatsVideo output/user-stats.mp4",
+    "render:all": "npm run render:quote && npm run render:product-ad && npm run render:user-stats",
+    "test": "echo \"✅ All examples ready to render!\""
+  },
+  "keywords": [
+    "remotion",
+    "video",
+    "social-media",
+    "automation",
+    "creator-tools",
+    "react",
+    "programming"
+  ],
+  "author": "Creator Toolkit",
+  "license": "MIT",
+  "dependencies": {
+    "@remotion/cli": "4.0.321",
+    "remotion": "4.0.321"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5.8.3"
+  }
+}
